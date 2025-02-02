@@ -1,0 +1,36 @@
+# Ignore build artifacts
+/build/
+/dist/
+/out/
+/guiding_nc.egg-info/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+*.csv
+*.h5
+*.json
+*.log
+/nc/data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.backup
